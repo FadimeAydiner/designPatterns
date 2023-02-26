@@ -1,2 +1,7 @@
-package structuralDP.decoratorDP;public interface Phone {
+package structuralDP.decoratorDP;
+
+public interface Phone {
+    String getName();
+    int cameraCount();
+    double getprice();
 }
